@@ -33,7 +33,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Todolist App<a name="about-project"></a>
+# 📖 Maths Magicians<a name="about-project"></a>
 
 **Maths Magicians** is one of the interesting projects I have had to work on as a developer. This project was developed using react.
 ## 🛠 Built With <a name="built-with"> React Js and Redux</a>
