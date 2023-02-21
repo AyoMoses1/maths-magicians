@@ -109,6 +109,14 @@ To run the project, execute the following command:
   npm start
 ```
 
+### Testing
+
+To run the project, execute the following command:
+
+```
+  npm run test
+```
+
 ### Deployment
 
 You can deploy this project using:
