@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <img src="src/images/1.png" alt="logo" width="140"  height="auto" />
+  <img src="public/images/1.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Maths Magicians</b></h3>
@@ -107,6 +107,14 @@ To run the project, execute the following command:
 
 ```
   npm start
+```
+
+### Testing
+
+To run the project, execute the following command:
+
+```
+  npm run test
 ```
 
 ### Deployment

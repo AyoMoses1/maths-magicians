@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.result {
+  background: #848494;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  padding-right: 5px;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-buttons button {
+  padding: 40px 20px;
+  border: 1px solid rgb(132, 132, 148);
+  font-weight: 700;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-buttons button:nth-child(17) {
+  grid-column: span 2;
+}
+
+.calc-buttons button:nth-child(19),
+.calc-buttons button:nth-child(4n) {
+  background-color: #f3933c;
+  border: 1px solid #fff;
+}
