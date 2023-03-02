@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import styles from '../styles/Navbar.module.css'
 
 
 const links = [
@@ -12,11 +13,11 @@ const links = [
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-logo">
+      <nav className={styles.navbar}>
+        <div className={styles.navlogo}>
           Maths Magicians
         </div>
-        <ul>
+        <ul className={styles.navlinks}>
           {links.map((link) => (
             <React.Fragment key={link.text}>
               <li>
