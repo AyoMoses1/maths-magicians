@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import './calculator.css';
 import Result from './Result';
 
 function Calculator() {
@@ -15,7 +14,7 @@ function Calculator() {
   };
 
   return (
-    <>
+    <div className="calc_wrapper">
       <Result
         total={total}
         operation={operation}
@@ -33,7 +32,7 @@ function Calculator() {
           </button>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
