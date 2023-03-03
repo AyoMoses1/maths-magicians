@@ -131,11 +131,15 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Authors**
 
 - GitHub: [@AyoMoses1](https://github.com/AyoMoses1)
 - Twitter: [@Ayo_Moses1](https://twitter.com/Ayo_Moses1)
 - LinkedIn: [Ayo Moses](https://www.linkedin.com/in/ayo-moses-493946184/)
+
+- GitHub: [@Habtamu210](https://github.com/Habtamu210)
+- Twitter: [@beleyaha](https://twitter.com/beleyaha)
+- LinkedIn: [Habtamu Birru](https://linkedin.com/in/habtamu-birru-4187ab20/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
