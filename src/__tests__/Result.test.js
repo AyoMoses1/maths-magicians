@@ -1,5 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import Result from "../components/Result";
+import renderer from 'react-test-renderer';
+
+it('renders correctly', () => {
+  const tree = renderer.create(<Result />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
 
 it('The Result component renders the same content passed into total, next and operation prop', () => {
   const state = {total: 2, next: '3', operation : "+" }

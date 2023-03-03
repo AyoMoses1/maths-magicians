@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import Navbar from './../components/Navbar';
 import { BrowserRouter } from 'react-router-dom';
+import  renderer  from 'react-test-renderer';
 
 const MockNavbar = () => {
   return (
@@ -9,6 +10,12 @@ const MockNavbar = () => {
     </BrowserRouter>
   )
 }
+
+it('renders correctly', () => {
+  const tree = renderer.create(<MockNavbar />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
 
 describe("Navbar tests", () => {
   test('It should contain text content', () => {

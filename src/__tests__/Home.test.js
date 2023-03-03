@@ -1,5 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import Home from './../routes/Home';
+import renderer  from 'react-test-renderer';
+
+
+it('renders correctly', () => {
+  const tree = renderer.create(<Home />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
 
 describe('Home page tests', () => {
   test('It displays heading', () => {
