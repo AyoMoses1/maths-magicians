@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className={styles.navlinks}>
           {links.map((link) => (
             <React.Fragment key={link.text}>
-              <li>
+              <li data-testid={link.text}>
                 <NavLink to={link.path}>{link.text}</NavLink>
               </li>
             </React.Fragment>
