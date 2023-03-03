@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 function Result({ total, next, operation }) {
   return (
-    <div className="result">
+    <div className="result" data-testid="result">
       {total}
       {' '}
       {operation}
