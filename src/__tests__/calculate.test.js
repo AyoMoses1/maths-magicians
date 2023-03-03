@@ -5,14 +5,6 @@ describe('calculate', () => {
     expect(typeof calculate({}, 'AC')).toBe('object');
   });
 
-  // it('should return an object with total, next and operation properties', () => {
-  //   expect(calculate({}, 'AC')).toEqual({
-  //     total: null,
-  //     next: null,
-  //     operation: null,
-  //   });
-  // });
-
   it('should add two numbers', () => {
     const obj = { total: '1', next: '2', operation: '+' };
     const expected = { total: '3', next: null, operation: null };
