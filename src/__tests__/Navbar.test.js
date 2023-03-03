@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
+import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
 import Navbar from '../components/Navbar';
 
@@ -24,7 +25,7 @@ describe('Navbar tests', () => {
   test('It should be visible to the user', () => {
     render(<MockNavbar />);
     const textElement = screen.getAllByRole('list');
-    expect(textElement).toBeVisible;
+    expect(textElement[0]).toBeVisible();
   });
 });
 

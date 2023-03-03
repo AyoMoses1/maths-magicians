@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
+import '@testing-library/jest-dom';
 import Home from '../routes/Home';
 
 it('renders correctly', () => {
@@ -11,7 +12,7 @@ describe('Home page tests', () => {
   test('It displays heading', () => {
     render(<Home />);
     const textElement = screen.getByRole('heading');
-    expect(textElement).toBeInTheDocument;
+    expect(textElement).toBeInTheDocument();
   });
 
   test('It renders all paragraph', () => {

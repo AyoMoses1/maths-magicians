@@ -20,7 +20,7 @@ describe('It displays exactly what is clicked', () => {
   it('displays the value of the button clicked', () => {
     render(<Calculator />);
     const result = screen.getAllByTestId('result');
-    expect(result).toBeInTheDocument;
+    expect(result[0]).toBeInTheDocument();
   });
 
   it('displays the value of the button clicked', () => {
